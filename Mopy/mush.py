@@ -67,7 +67,7 @@ SPLM +
 """
 
 # Installer -------------------------------------------------------------------
-bethDataFiles = {
+bethDataFiles = set((
     # --Vanilla
     'morrowind.esm',
     'tribunal.esm',
@@ -75,7 +75,7 @@ bethDataFiles = {
     'morrowind.bsa',
     'tribunal.bsa',
     'bloodmoon.bsa',
-}
+))
 
 # Game Info ===================================================================
 # Skill Related
