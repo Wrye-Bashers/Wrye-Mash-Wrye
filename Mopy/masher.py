@@ -5307,9 +5307,7 @@ class Mods_LoadList:
             newItem = dialog.GetValue()
             dialog.Destroy()
             if len(newItem) == 0 or len(newItem) > 64:
-                ErrorMessage(self.window,
-                    _(
-                        'Load list name must be between 1 and 64 characters long.'))
+                ErrorMessage(self.window,_('Load list name must be between 1 and 64 characters long.'))
             else:
                 self.data[newItem] = mosh.mwIniFile.loadFiles[:]
                 settings.setChanged('mash.loadLists.data')
