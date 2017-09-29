@@ -1253,7 +1253,7 @@ def csvFormat(format):
     return csvFormat[1:]  # --Chop leading comma
 
 
-deprintOn = False
+deprintOn = True
 
 
 def deprint(*args, **keyargs):
