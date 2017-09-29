@@ -821,7 +821,7 @@ def mainfunc(func):
 
 
 # ------------------------------------------------------------------------------
-class PickleDict:
+class PickleDict(object):
     """Dictionary saved in a pickle file.
     Note: self.vdata and self.data are not reassigned! (Useful for some clients.)"""
 
